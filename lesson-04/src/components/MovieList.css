@@ -21,6 +21,6 @@
   padding: 32px;
   text-align: center;
   color: var(--muted);
-  border: 1px dashed var(--border);
-  border-radius: var(--radius);
+   border: 1px dashed var(--border); 
+ border-radius: var(--radius);
 }
