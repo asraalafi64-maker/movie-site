@@ -114,6 +114,7 @@ body {
   margin-bottom: 20px;
 }
 
+
 /* רווח מעל השורה, כשהיא באה אחרי רשימה */
 .movie-list + .toolbar {
   margin-top: 48px;
@@ -124,4 +125,11 @@ body {
   width: 1px;
   height: 24px;
   background: var(--border);
+}
+
+/* כפתור "הצג עוד" באמצע, מתחת לרשימה */
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
 }
