@@ -39,6 +39,8 @@ function App() {
     if (sortBy === "title") {
       return a.title.localeCompare(b.title);
     }
+    if(sortBy==="duration")
+      return b.duration - a.duration;
     return b.rating - a.rating;
   }
 

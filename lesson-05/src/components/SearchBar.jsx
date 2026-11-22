@@ -46,6 +46,7 @@ function SearchBar({
           <option value="rating">לפי דירוג</option>
           <option value="year">לפי שנה</option>
           <option value="title">לפי שם</option>
+          <option value="duration">לפי אורך</option>
         </select>
       </label>
     </div>
